@@ -1,0 +1,7 @@
+type multicall @entity {
+    id: ID!
+    tx_hash: String!
+    from: String!
+    index: Int!
+    data: [Bytes!]!
+}
