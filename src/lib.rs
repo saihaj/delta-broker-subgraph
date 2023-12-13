@@ -4,8 +4,8 @@ mod pb;
 use abi::contract::functions::Multicall;
 use hex_literal::hex;
 use substreams::Hex;
-use substreams_entity_change::pb::entity::{EntityChanges };
-use substreams_entity_change::tables::{Tables as EntityChangesTables };
+use substreams_entity_change::pb::entity::EntityChanges;
+use substreams_entity_change::tables::Tables as EntityChangesTables;
 use substreams_ethereum::pb::eth::v2 as eth;
 use substreams_ethereum::Function;
 
