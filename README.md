@@ -7,7 +7,8 @@ This subgraph tracks the `Multicall` handler calls on the [`DeltaBrokerProxy`](h
 ## Running this locally
 
 1. Install [Substreams CLI](https://substreams.streamingfast.io/getting-started/installing-the-cli)
-2. `substreams run -e polygon.streamingfast.io:443 delta-v0.1.0.spkg graph_out --start-block 50589017 --stop-block +1000`
+2. Have a valid authentication key. [Learn more](https://substreams.streamingfast.io/getting-started/quickstart)
+3. `substreams run -e polygon.streamingfast.io:443 delta-v0.1.0.spkg graph_out --start-block 50589017 --stop-block +1000`
 
 ## Deploying this Subgraph
 1. `pnpm install`
